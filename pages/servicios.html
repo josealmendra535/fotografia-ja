@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
     <title>Servicios</title>
+    <meta name="description" content="Ofrecemos servicios fotográficos profesionales para matrimonios, empresas y paisajes.">
+    <meta name="keywords" content="fotografía, servicios fotográficos, matrimonios, eventos, retratos, fotografía profesional, fotografia corporativa">
+    <meta name="author" content="Fotografia José Almendra">
 </head>
-
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -55,47 +58,63 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main id="servicios">
         <section>
             <h1>Servicios</h1>
-            <div class="Servicios--">
-                <div class="Fotografia__de__Matrimonio">
+            <div class="card mb-5" data-aos="fade-right">
+                <div class="row g-0">
+                    <div class="col-md">
+                        <img src="/assets/matrimonio ho.jpeg" class="img-fluid" alt="matrimonio">
+                    </div>
+                    <div class="col-md">
+                        <div class="card-body">
+                            <h2 class="card-title">Matrimonio</h2>
+                            <p class="card-text">Trabajamos arduamente para asegurarnos de que cada fotografía editada refleje la visión y expectativas de nuestros clientes.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <h3>Matrimonio</h3>
-                <p>Trabajamos arduamente para asegurarnos de que cada fotografía editada refleje la visión y
-                    expectativas de nuestros clientes.
-                </p>
             </div>
-            <img src="/assets/matrimonio ho.jpeg" alt="Matrimonio" class="servicio__img">
-            </div>
-            <div class="Fotografia--corporativa">
-                <div class="Servicio__corporativa">
-                    <h3>Corporativas</h3>
-                    <p>Ofrecemos una gama completa de servicios, incluyendo retratos profesionales, fotografías de
-                        eventos corporativos, y sesiones para campañas de marketing.</p>
+            <div class="card mb-5" data-aos="fade-left">
+                <div class="row g-0">
+                    <div class="col-md">
+                        <div class="card-body">
+                            <h2 class="card-title">Corporativa</h2>
+                            <p class="card-text"> Ofrecemos una gama completa de servicios, incluyendo retratos profesionales, fotografías de eventos corporativos, y sesiones para campañas de marketing.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <img src="/assets/corporativa ho.jpeg" class="img-fluid" alt="corporativa">
+                    </div>
                 </div>
-                <img src="/assets/corporativa ho.jpeg" alt="Corporativa">
             </div>
-            <div class="Servicio--de--Paisaje">
-                <div class="Fotografia__de__paisaje">
-                    <h3>Paisaje</h3>
-                    <p>Ofrefecemos servicios de fotografia de paisajes tanto de florda y fauna con equipos de alta
-                        calidad.</p>
+            <div class="card" data-aos="fade-right">
+                <div class="row g-0">
+                    <div class="col-md">
+                        <img src="/assets/lago ho.jpeg" class="img-fluid" alt="paisaje">
+                    </div>
+                    <div class="col-md">
+                        <div class="card-body">
+                            <h2 class="card-title">Paisaje</h2>
+                            <p class="card-text">Ofrefecemos servicios de fotografia de paisajes tanto de flora y fauna con equipos de alta calidad.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <img src="/assets/ciudad de noche.jpeg" alt="Paisaje">
             </div>
         </section>
         <section>
-            <h2>Trabajos realizados</h2>
+            <h1>Trabajos realizados</h1>
             <div class="galeria">
-                <img src="/assets/productos ve.jpeg" alt="Fotografia de verduras">
-                <img src="/assets/matrimonio ve.jpg" alt="Fotografia de matrimonio">
-                <img src="/assets/foto de viaje ve.jpeg" alt="Fotografia de viaje">
-                <img src="/assets/edificios ve.jpeg" alt="Fotografia de edificios">
-                <img src="/assets/medico ho.jpeg" alt="Fotografía corporativa de médico">
-                <img src="/assets/foto calle ve.webp" alt="fotografia callejera">
-                <img src="/assets/corporativa ho.jpeg" alt="corporativa">
-                <img src="/assets/bosque ve.jpeg" alt="fotografo de paisaje">
+                <img src="/assets/productos ve.jpeg" data-aos="zoom-in" alt="Fotografia de verduras">
+                <img src="/assets/matrimonio ve.jpg" data-aos="zoom-in" alt="Fotografia de matrimonio">
+                <img src="/assets/foto de viaje ve.jpeg" data-aos="zoom-in" alt="Fotografia de viaje">
+                <img src="/assets/edificios ve.jpeg" data-aos="zoom-in" alt="Fotografia de edificios">
+                <img src="/assets/medico ho.jpeg" data-aos="zoom-in" alt="Fotografía corporativa de médico">
+                <img src="/assets/foto calle ve.webp" data-aos="zoom-in" alt="fotografia callejera">
+                <img src="/assets/corporativa ho.jpeg" data-aos="zoom-in" alt="corporativa">
+                <img src="/assets/bosque ve.jpeg" data-aos="zoom-in" alt="fotografo de paisaje">
             </div>
         </section>
     </main>
