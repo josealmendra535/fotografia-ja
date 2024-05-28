@@ -1,0 +1,17 @@
+@import 'color';
+#faqs{
+    article {
+        padding: 3rem;
+        margin-bottom: 1.5rem;
+        background-color: $header-background-hex;
+        li,
+        p {
+          font-family: "Poppins", sans-serif;
+          font-weight: 300;
+          font-style: normal;
+          text-align: justify;
+          font-size: 1.6rem;
+          color: #0d0d0d;
+        }
+      }
+}

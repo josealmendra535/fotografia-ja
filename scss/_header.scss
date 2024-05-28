@@ -1,0 +1,30 @@
+@import "color";
+
+body header {
+  background-color: $header-background-hex;
+  padding: 1rem;
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-center;
+    align-items: center;
+
+    ul {
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+    ul li {
+        list-style-type: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: cursiva;
+        text-align: center;
+        font-size: 1.5rem;
+        a {
+          color: #0d0d0d;
+        }
+      }
+  }
+}
